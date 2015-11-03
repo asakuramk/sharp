@@ -1,0 +1,228 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html  lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" href="style1.css" charset="UTF-8">
+
+<title>総使用枚数 - MX-2640FN</title>
+
+  <script type="text/javascript" charset="UTF-8">
+  <!--
+  function loginSubmit(mode) {
+    var locationURL;
+
+    if(mode == 0) {
+      locationURL = "login.html?" + location.pathname;
+      location.href = locationURL;
+    }
+    else {
+      location.href = "login.html?logoffSubmit";
+    }
+  }
+  //-->
+  </script>
+<!-- javascript //-->
+<script type="text/javascript" charset="UTF-8" src="webpage.js"></script>
+<script type="text/javascript" charset="UTF-8">
+<!--
+sflg = 0;
+function validate( name ){
+  if (sflg == 0){
+    sflg = 1;
+    document.sys_count.action.value = name;
+    ordinate = document.getElementsByName("ordinate");
+    if (ordinate.length > 0){
+      document.sys_count.ordinate.value = document.body.scrollTop || document.documentElement.scrollTop;
+    }
+    document.sys_count.submit();
+  }
+}
+//-->
+</script>
+
+</head>
+<body >
+<div class="left">
+  <!--LOGO-->
+  <div class="logo">
+    <a href="http://sharp-world.com/" target="_blank"><img src="logo.gif?20151103064257" border="0" width="102" height="15" alt="Sharpグローバルホームページへのリンク"></a>
+    <div class="modelName">MX-2640FN</div>
+  </div>
+  <!--LOGO_END-->
+  
+  <!--LINK-->
+  <a name="menu"></a>
+  <div class="menu">
+      <div class="invisible">メニューはここからです。メニュー数:35</div>
+<a href="/main.html">   <div class="menu1"><img src="square.gif" width="12" height="9" alt="">トップページ</div></a>
+<a href="/device_status.html">    <div class="menu1"><img src="delta_close.gif" width="12" height="9" alt="">ステータス</div></a>
+<a href="/addressbook.html">    <div class="menu1"><img src="delta_close.gif" width="12" height="9" alt="">アドレス帳</div></a>
+<a href="/filelist_main.html">    <div class="menu1"><img src="delta_close.gif" width="12" height="9" alt="">ファイル操作</div></a>
+<a href="/account_userlist.html">   <div class="menu1"><img src="delta_close.gif" width="12" height="9" alt="">ユーザー管理</div></a>
+<a href="/sys_count.html">    <div class="menu1"><img src="delta_open.gif" width="12" height="9" alt="">システム設定</div></a>
+      <a href="/sys_count.html"><div class="menu2"><img src="square.gif" width="12" height="9" alt="">総使用枚数表示</div></a>
+      <a href="/sys_default.html"><div class="menu2"><img src="square.gif" width="12" height="9" alt="">初期設定</div></a>
+      <a href="/sys_listprint_user.html"><div class="menu2"><img src="square.gif" width="12" height="9" alt="">データリストプリント</div></a>
+      <a href="/sys_traylist.html"><div class="menu2"><img src="delta_close.gif" width="12" height="9" alt="">給紙トレイ設定</div></a>
+      <a href="/sys_papertype.html"><div class="menu2"><img src="square.gif" width="12" height="9" alt="">用紙タイプの登録</div></a>
+      <a href="/sys_fcodelist.html"><div class="menu2"><img src="square.gif" width="12" height="9" alt="">Fコードメモリーボックス</div></a>
+      <a href="/sys_rx_fw.html"><div class="menu2"><img src="square.gif" width="12" height="9" alt="">受信/転送設定</div></a>
+      <a href="/sys_printer_condition.html"><div class="menu2"><img src="square.gif" width="12" height="9" alt="">プリンター環境設定</div></a>
+      <a href="/sys_usb.html"><div class="menu2"><img src="square.gif" width="12" height="9" alt="">USBデバイス確認</div></a>
+      <a href="/sys_operation.html"><div class="menu2"><img src="delta_close.gif" width="12" height="9" alt="">操作設定</div></a>
+      <a href="/sys_devicecontrol.html"><div class="menu2"><img src="square.gif" width="12" height="9" alt="">デバイス設定</div></a>
+      <a href="/sys_copy.html"><div class="menu2"><img src="square.gif" width="12" height="9" alt="">コピー設定</div></a>
+      <a href="/sys_printer.html"><div class="menu2"><img src="delta_close.gif" width="12" height="9" alt="">プリンター設定</div></a>
+      <a href="/sys_send_control.html"><div class="menu2"><img src="delta_close.gif" width="12" height="9" alt="">ファクス/イメージ送信設定</div></a>
+      <a href="/sys_file.html"><div class="menu2"><img src="delta_close.gif" width="12" height="9" alt="">ドキュメントファイリング設定</div></a>
+      <a href="/sys_listprint_admin.html"><div class="menu2"><img src="square.gif" width="12" height="9" alt="">リスト/レポートプリント</div></a>
+      <a href="/sys_osa.html"><div class="menu2"><img src="square.gif" width="12" height="9" alt="">Sharp OSA設定</div></a>
+      <a href="/sys_disable.html"><div class="menu2"><img src="square.gif" width="12" height="9" alt="">禁止設定</div></a>
+      <a href="/storagebackup.html"><div class="menu2"><img src="delta_close.gif" width="12" height="9" alt="">データバックアップ</div></a>
+      <a href="/sys_key.html"><div class="menu2"><img src="square.gif" width="12" height="9" alt="">プロダクトキー入力</div></a>
+      <a href="/sys_store.html"><div class="menu2"><img src="square.gif" width="12" height="9" alt="">システム設定の保存/呼出し</div></a>
+<a href="/nw_quick.html">   <div class="menu1"><img src="delta_close.gif" width="12" height="9" alt="">ネットワーク設定</div></a>
+<a href="/app_copy_printmenu_list.html">    <div class="menu1"><img src="delta_close.gif" width="12" height="9" alt="">アプリケーション設定</div></a>
+<a href="/sys_energy_save_eco.html">    <div class="menu1"><img src="delta_close.gif" width="12" height="9" alt="">省エネルギー設定</div></a>
+<a href="/email_status.html">   <div class="menu1"><img src="delta_close.gif" width="12" height="9" alt="">E-mailアラート/ステータス</div></a>
+<a href="/joblog_save.html">    <div class="menu1"><img src="delta_close.gif" width="12" height="9" alt="">ジョブログ</div></a>
+<a href="/security_password.html">    <div class="menu1"><img src="delta_close.gif" width="12" height="9" alt="">セキュリティ設定</div></a>
+<a href="/customlink_list.html">    <div class="menu1"><img src="square.gif" width="12" height="9" alt="">カスタムリンク</div></a>
+<a href="/manual.html">   <div class="menu1"><img src="square.gif" width="12" height="9" alt="">取扱説明書のダウンロード</div></a>
+  <div class="invisible">メニューはここまでです。</div>
+
+  </div>
+  <!--LINK_END-->
+
+</div>
+
+<form method="post" name="sys_count" onsubmit="return false;" action="">
+<div class="right">
+  <!--TITLE-->
+  <div class="title"><a name="main" class="pagetop"></a>
+    <span class="username">ユーザー名: 管理者&nbsp;
+              <button onClick="loginSubmit(1)" accesskey="L">ログアウト(L)</button><!--Logoff (L)-->
+            </span>
+    <h1>総使用枚数</h1>
+    <span class="helpButton"></span>
+    
+    
+    <div class="buttonfieldHead">
+        <span class="headButton"><input name="sysCountPrintbtn" type="button" value="印刷(C)" onclick="validate( this.name )" accesskey="C" >
+        <input name="updatebtn" type="button" value="更新(R)" onclick="validate( this.name )" accesskey="R" ></span>
+    </div>
+  </div>
+  <!--TITLE_END-->
+  
+  <!--MAIN-->
+  <div class="main">
+    <p class="ok"></p>
+    <table class="layout">
+      <tr>
+        <td width="40%" class="layoutHead">更新時刻:</td>
+        <td>
+        2015/11/03 06:42:57
+        </td>
+      </tr>
+    </table>
+
+    <table class="matrix">
+      <thead>
+        <tr>
+          <th>総使用枚数</th>
+          <th>カウント数</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>白黒</td>
+          <td>14398</td>
+        </tr>
+        <tr>
+          <td>フルカラー</td>
+          <td>2570</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br>
+    <hr>
+    <br>
+
+    
+      <table class="matrix">
+    <thead>
+      <tr>
+        <th colspan="2">ジョブ名
+    </th>
+        <th colspan="2">カウント数
+    </th>
+      </tr>
+    </thead>
+      <tbody>
+      <tr>
+      <td rowspan="2">コピー</td>
+      <td width="25%" >白黒</td>
+        <td>2921</td>
+      </tr>     <tr>
+      <td width="25%" >フルカラー</td>
+        <td>3</td>
+      </tr>     <tr>
+      <td rowspan="2">プリンター</td>
+      <td width="25%" >白黒</td>
+        <td>11457</td>
+      </tr>     <tr>
+      <td width="25%" >フルカラー</td>
+        <td>2567</td>
+      </tr>     <tr>
+      <td colspan="2" >ファクス受信</td>
+        <td>7</td>
+      </tr>     <tr>
+      <td rowspan="2">ドキュメントファイリング印刷</td>
+      <td width="25%" >白黒</td>
+        <td>0</td>
+      </tr>     <tr>
+      <td width="25%" >フルカラー</td>
+        <td>0</td>
+      </tr>     <tr>
+      <td rowspan="2">その他</td>
+      <td width="25%" >白黒</td>
+        <td>13</td>
+      </tr>     <tr>
+      <td width="25%" >フルカラー</td>
+        <td>0</td>
+      </tr>     </tbody>
+    </table>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </div>
+  <!--MAIN_END-->
+  
+  <!--FOOTER-->
+  <div class="footer">
+    <div class="topButton"><a href="#main">このページの先頭へ<img src="top_button.gif" border="0" alt=""></a></div>
+    <div class="buttonfieldFoot">
+        <span class="footButton"><input name="sysCountPrintbtn" type="button" value="印刷(C)" onclick="validate( this.name )" accesskey="C" >
+        <input name="updatebtn" type="button" value="更新(R)" onclick="validate( this.name )" accesskey="R" ></span>
+    </div>
+  </div>
+  
+<input type="hidden" name="action" value="">
+<input type="hidden" name="ordinate" value="">
+  <!--FOOTER_END-->
+</div>
+</form>
+</body>
+</html>
